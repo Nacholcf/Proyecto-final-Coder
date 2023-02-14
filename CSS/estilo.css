@@ -34,9 +34,42 @@ main {
 
 .parrafo {
     text-align: left;
+    color: orange;
+    text-transform: uppercase;
+    font-weight: bold;
 }
 
 .logo {
     width: 120px;
 }
 
+.Nuestrosproductos {
+    text-align: center;
+    color: black;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: xx-large;
+}
+
+.titulosremeras {
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}  
+
+.remeragris {
+    filter: grayscale(90%);
+}
+.remeragris:hover {
+    filter: grayscale(0%);
+}
+
+.titulo1 {
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
