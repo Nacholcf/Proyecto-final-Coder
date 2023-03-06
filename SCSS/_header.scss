@@ -1,0 +1,14 @@
+//MIXIN
+@mixin anclas{
+	text-align: center;
+	color: $color_3;
+	font-weight: bold;
+	font-family: $font-family_1;
+	font-family: $font-family_2;
+}
+
+
+.titulo1 {
+@include anclas;
+}
+	

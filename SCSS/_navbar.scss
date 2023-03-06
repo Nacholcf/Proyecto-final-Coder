@@ -1,0 +1,24 @@
+.logo {
+	width: 140px;
+}
+
+li {
+	list-style-type: none;
+	display: inline-block;
+}
+a {
+	color: $color_1;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-decoration: none;
+	margin: 30px 30px;
+}
+
+.botonMio {
+	background-color: $background-color_2;
+	color: $color_3;
+	&:hover {
+		background-color: $background-color_3;
+		color: $color_3;
+	}
+}
